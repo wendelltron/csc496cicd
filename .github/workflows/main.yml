@@ -15,4 +15,5 @@ jobs:
         port: ${{ secrets.PORT }}
         script: |
           cd csc496
+          ls
           git pull
